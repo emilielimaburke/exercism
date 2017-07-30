@@ -1,0 +1,5 @@
+{
+  "bob_test.py::BobTests::test_ending_with_whitespace": true,
+  "bob_test.py::BobTests::test_forceful_question": true,
+  "bob_test.py::BobTests::test_only_numbers": true
+}
