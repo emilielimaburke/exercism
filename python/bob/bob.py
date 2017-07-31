@@ -1,10 +1,13 @@
 def hey(phrase):
-	if phrase[-1] == "?":
-		return('Sure.')
-	elif phrase == phrase.upper():
+	phrase = phrase.strip()
+	if phrase == '':
+		return('Fine. Be that way!')
+	elif phrase.isupper() and phrase[-1] == "?":
 		return('Whoa, chill out!')
-	# elif 
-	# 	return('Fine. Be that way!')
+	elif phrase[-1] == "?":
+		return('Sure.')
+	elif phrase.isupper():
+		return('Whoa, chill out!')
 	else:
 		return('Whatever.')
 
